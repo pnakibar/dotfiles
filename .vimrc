@@ -5,6 +5,11 @@ filetype plugin indent on
 
 set number
 
+"2 spaces softtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
 
 "nerdtree!
 map <C-n> :NERDTreeToggle<CR>
