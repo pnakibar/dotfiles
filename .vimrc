@@ -1,7 +1,11 @@
 execute pathogen#infect()
 
-syntax on
 filetype plugin indent on
+syntax enable
+set background=dark
+colorscheme solarized
+set gfn=Roboto\ Mono\ for\ Powerline\ 10  
+
 
 set number
 
