@@ -18,3 +18,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "jsx!
 let g:jsx_ext_required = 0
+
+
+"indent guides
+"toggle-> \ig (<Leader>ig)
+"
