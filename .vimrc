@@ -5,7 +5,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 set gfn=Roboto\ Mono\ for\ Powerline\ 10  
-
+let g:solarized_termcolors=256
 
 set number
 
