@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/immo/.mozilla/firefox/33gq3piw.default'
 let g:netrw_dirhist_2='/home/immo/git/packtcheckt'
 let g:netrw_dirhist_3='/home/immo/something'
 let g:netrw_dirhist_4='/home/immo'
+let g:netrw_dirhist_5='/home/immo/git/study/meanstack/config'

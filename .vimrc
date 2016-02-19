@@ -3,9 +3,10 @@ execute pathogen#infect()
 filetype plugin indent on
 syntax enable
 set background=dark
-colorscheme solarized
 set gfn=Roboto\ Mono\ for\ Powerline\ 10  
-let g:solarized_termcolors=256
+set paste
+
+"colors solarized
 
 set number
 
