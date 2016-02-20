@@ -1,14 +1,15 @@
 execute pathogen#infect()
 
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1 "magic to colorschemes work in gnome-terminal
+
 filetype plugin indent on
 syntax enable
 set background=dark
 set gfn=Roboto\ Mono\ for\ Powerline\ 10  
 set paste
-
-"colors solarized
-
 set number
+let g:gruvbox_italic=1
+colors gruvbox
 
 "2 spaces softtab
 set tabstop=2
@@ -23,7 +24,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 "jsx!
 let g:jsx_ext_required = 0
-
 
 "indent guides
 "toggle-> \ig (<Leader>ig)
@@ -43,7 +43,7 @@ let g:rbpt_colorpairs = [
     \ ['darkcyan',    'RoyalBlue3'],
     \ ['darkred',     'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
+    \ ['brown',       'firebrick1'],
     \ ['gray',        'RoyalBlue3'],
     \ ['black',       'SeaGreen3'],
     \ ['darkmagenta', 'DarkOrchid3'],
@@ -53,7 +53,7 @@ let g:rbpt_colorpairs = [
     \ ['darkred',     'DarkOrchid3'],
     \ ['red',         'firebrick3'],
     \ ]
-
+"auto-start rainbow-parentheses
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 au VimEnter * RainbowParenthesesToggle
