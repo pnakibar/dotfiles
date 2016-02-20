@@ -64,3 +64,6 @@ au Syntax * RainbowParenthesesLoadBraces
 "ctrl-p
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+"tagbar
+nmap <F8> :TagbarToggle<CR>
