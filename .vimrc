@@ -10,6 +10,7 @@ set paste
 set number
 let g:gruvbox_italic=1
 colors gruvbox
+set autoindent
 
 "2 spaces softtab
 set tabstop=2
