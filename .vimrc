@@ -6,7 +6,6 @@ filetype plugin indent on
 syntax enable
 set background=dark
 set gfn=Roboto\ Mono\ for\ Powerline\ 10  
-set paste
 set number
 let g:gruvbox_italic=1
 colors gruvbox
