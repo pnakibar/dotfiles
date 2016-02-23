@@ -68,3 +68,17 @@ let g:ctrlp_cmd = 'CtrlP'
 
 "tagbar
 nmap <F8> :TagbarToggle<CR>
+
+"syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+"syntastic js - needs this installed: https://github.com/feross/standard
+let g:syntastic_javascript_checkers = ['standard']
+autocmd bufwritepost *.js silent !standard % --format
+set autoread
