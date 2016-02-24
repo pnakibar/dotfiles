@@ -68,6 +68,9 @@ let g:ctrlp_cmd = 'CtrlP'
 "tagbar
 nmap <F8> :TagbarToggle<CR>
 
+"youCompleteMe
+let g:ycm_min_num_of_chars_for_completion = 1
+
 "syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
